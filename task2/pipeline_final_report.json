@@ -1,0 +1,32 @@
+{
+  "pipeline_summary": {
+    "total_execution_time": 465.2126929759979,
+    "steps_completed": 5,
+    "timestamp": "2025-11-07 22:00:55"
+  },
+  "step_summaries": {
+    "step2": {
+      "name": "Классическая векторизация",
+      "methods_tested": 4,
+      "status": "completed"
+    },
+    "step3": {
+      "name": "Снижение размерности",
+      "status": "completed"
+    },
+    "step4": {
+      "name": "Сравнительный анализ",
+      "status": "completed"
+    },
+    "step5": {
+      "name": "Распределённые представления",
+      "word_models": 0,
+      "doc_models": 0,
+      "status": "completed"
+    },
+    "step6": {
+      "name": "Векторная арифметика",
+      "status": "completed"
+    }
+  }
+}

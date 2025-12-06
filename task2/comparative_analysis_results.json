@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "one_hot": {
+      "best_method": "One-Hot 1-3gram",
+      "best_score": 0.005790999999999991,
+      "methods_count": 3
+    },
+    "bag_of_words": {
+      "best_method": "BoW count 1-2gram",
+      "best_score": 0.0055181499999999994,
+      "methods_count": 10
+    },
+    "tfidf": {
+      "best_method": "TF-IDF smooth_idf=True 1-3gram",
+      "best_score": 0.005649650000000006,
+      "methods_count": 12
+    }
+  },
+  "recommendations": {
+    "for_small_datasets": "TF-IDF с n-граммами (1,2)",
+    "for_large_datasets": "TF-IDF с ограниченным количеством признаков",
+    "for_speed": "One-Hot Encoding",
+    "for_quality": "TF-IDF с настройкой параметров"
+  },
+  "performance_metrics": {}
+}

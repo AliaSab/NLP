@@ -1,0 +1,198 @@
+{
+  "variance_analysis": [
+    {
+      "n_components": 10,
+      "total_variance_explained": 0.0806564199820572,
+      "variance_90_percent": 10,
+      "variance_95_percent": 10,
+      "variance_99_percent": 10,
+      "first_component_variance": 0.0090394185912119,
+      "top_5_components_variance": 0.05002927307881735,
+      "processing_time": 0.433429479598999
+    },
+    {
+      "n_components": 50,
+      "total_variance_explained": 0.20959063738970737,
+      "variance_90_percent": 50,
+      "variance_95_percent": 50,
+      "variance_99_percent": 50,
+      "first_component_variance": 0.009039415673458073,
+      "top_5_components_variance": 0.05002966542071609,
+      "processing_time": 2.073474168777466
+    },
+    {
+      "n_components": 100,
+      "total_variance_explained": 0.3125945563407447,
+      "variance_90_percent": 100,
+      "variance_95_percent": 100,
+      "variance_99_percent": 100,
+      "first_component_variance": 0.009039415703739761,
+      "top_5_components_variance": 0.05002968193909614,
+      "processing_time": 5.107897996902466
+    },
+    {
+      "n_components": 200,
+      "total_variance_explained": 0.4664183156672926,
+      "variance_90_percent": 200,
+      "variance_95_percent": 200,
+      "variance_99_percent": 200,
+      "first_component_variance": 0.009039415714746424,
+      "top_5_components_variance": 0.05002968188477064,
+      "processing_time": 11.267701864242554
+    },
+    {
+      "n_components": 500,
+      "total_variance_explained": 0.7688518566185086,
+      "variance_90_percent": 500,
+      "variance_95_percent": 500,
+      "variance_99_percent": 500,
+      "first_component_variance": 0.00903941571493614,
+      "top_5_components_variance": 0.05002968192566839,
+      "processing_time": 9.294229745864868
+    }
+  ],
+  "quality_analysis": {
+    "10": {
+      "reconstruction_error": 8.892158727072352e-05,
+      "explained_variance": 0.0806564199820572,
+      "compression_ratio": 1000.0,
+      "processing_time": 0.433429479598999
+    },
+    "50": {
+      "reconstruction_error": 7.644599218195352e-05,
+      "explained_variance": 0.20959063738970737,
+      "compression_ratio": 200.0,
+      "processing_time": 2.073474168777466
+    },
+    "100": {
+      "reconstruction_error": 6.64821320869705e-05,
+      "explained_variance": 0.3125945563407447,
+      "compression_ratio": 100.0,
+      "processing_time": 5.107897996902466
+    },
+    "200": {
+      "reconstruction_error": 5.1603873803184696e-05,
+      "explained_variance": 0.46641831566729275,
+      "compression_ratio": 50.0,
+      "processing_time": 11.267701864242554
+    },
+    "500": {
+      "reconstruction_error": 2.235453158753608e-05,
+      "explained_variance": 0.7688518566185079,
+      "compression_ratio": 20.0,
+      "processing_time": 9.294229745864868
+    }
+  },
+  "clustering_summary": {
+    "10": {
+      "5": {
+        "silhouette_score": 0.25751936632044864,
+        "inertia": 44.4038442432778
+      },
+      "10": {
+        "silhouette_score": 0.2901009501324028,
+        "inertia": 25.149548919719997
+      },
+      "15": {
+        "silhouette_score": 0.2526805092192018,
+        "inertia": 18.551591637633884
+      },
+      "20": {
+        "silhouette_score": 0.24416139197149175,
+        "inertia": 15.40515483965593
+      },
+      "25": {
+        "silhouette_score": 0.22742186888986196,
+        "inertia": 13.459939035489167
+      }
+    },
+    "50": {
+      "5": {
+        "silhouette_score": 0.07988932771709319,
+        "inertia": 169.63633472503662
+      },
+      "10": {
+        "silhouette_score": 0.11616690190209326,
+        "inertia": 145.62691671161627
+      },
+      "15": {
+        "silhouette_score": 0.14064131466391921,
+        "inertia": 128.58705103249758
+      },
+      "20": {
+        "silhouette_score": 0.15602085704233254,
+        "inertia": 115.01197571665955
+      },
+      "25": {
+        "silhouette_score": 0.12355420182019075,
+        "inertia": 105.12573301059612
+      }
+    },
+    "100": {
+      "5": {
+        "silhouette_score": 0.056868965647205,
+        "inertia": 267.7031236208281
+      },
+      "10": {
+        "silhouette_score": 0.07086318950045792,
+        "inertia": 245.6597984678518
+      },
+      "15": {
+        "silhouette_score": 0.031390144490340534,
+        "inertia": 229.04441918689625
+      },
+      "20": {
+        "silhouette_score": 0.07141993221707893,
+        "inertia": 216.76740062318072
+      },
+      "25": {
+        "silhouette_score": 0.07184673236640247,
+        "inertia": 204.0307981998234
+      }
+    },
+    "200": {
+      "5": {
+        "silhouette_score": 0.022133765545963142,
+        "inertia": 419.3029890044712
+      },
+      "10": {
+        "silhouette_score": 0.03885095732747729,
+        "inertia": 395.78838794262197
+      },
+      "15": {
+        "silhouette_score": 0.04961355485209902,
+        "inertia": 378.5102622554854
+      },
+      "20": {
+        "silhouette_score": 0.05868680990223414,
+        "inertia": 364.81290817870746
+      },
+      "25": {
+        "silhouette_score": 0.051742623650054,
+        "inertia": 353.5361242359557
+      }
+    },
+    "500": {
+      "5": {
+        "silhouette_score": 0.016295020242865575,
+        "inertia": 708.7495931295766
+      },
+      "10": {
+        "silhouette_score": 0.02207881257720078,
+        "inertia": 685.6891690354241
+      },
+      "15": {
+        "silhouette_score": 0.02286658005667594,
+        "inertia": 670.8574243822765
+      },
+      "20": {
+        "silhouette_score": 0.026505024552613585,
+        "inertia": 658.6879555724615
+      },
+      "25": {
+        "silhouette_score": 0.02623032145967439,
+        "inertia": 646.5681782838228
+      }
+    }
+  }
+}
